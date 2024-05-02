@@ -1,0 +1,17 @@
+#!/bin/bash
+python3 -m venv OOOvenv
+#pkg install bash
+source /home/sonikx/Documents/MLOps/venvops/bin/activate
+#pip install -r /home/sonikx/Documents/MLOps/MLOps_2/requirements.txt -r dev-requirements.txt
+pip install -r /home/sonikx/Documents/MLOps/MLOps_2/requirements.txt#!/bin/bash
+
+echo '----Create Dataset (begin)----'
+python3 /home/sonikx/Documents/MLOps/MLOps2/model_preprocessing.py
+echo '----Create Dataset (end)----'
+echo '----Train the Model (begin)----'
+python3 /home/sonikx/Documents/MLOps/MLOps2/model_creation.py
+echo '----Train the Model (end)----'
+echo '----Use the Model for Prediction (begin)----'
+python3 /home/sonikx/Documents/MLOps/MLOps2/test_model.py
+echo '----Use the Model for Prediction (end)----'
+
