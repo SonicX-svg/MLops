@@ -20,6 +20,7 @@
 3. model_preparation.py - фаил создает модель логистической регрессии, которая обучается на train.csv и для последующего применения модели, сохраняется с помощью pickle (model.pkl)<br>
 4. model_testing.py - тестирует модель и выводит метрики качества.<br>
 </details>
+
 ## MLops-2
 <details>
 <summary>Click to expand</summary>
