@@ -1,5 +1,6 @@
 # MLops_labs
 ## MLops-1
+Учебные проекты MLops
 <details>
 <summary>Click to expand</summary>  <br>
 ### Скрипты по созданию, обработке, обучению и предсказанию<br>
