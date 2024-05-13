@@ -4,7 +4,6 @@
 <details>
 <summary>Click to expand</summary>  <br>
 ### Скрипты по созданию, обработке, обучению и предсказанию<br>
-<span style='color: red;'>! pipeline.sh не работает </span><br>
 1. data_creation.py - генерирует фаилы train и test с данными для предскаязания хорошего дня:<br>
       - температура<br>
       - пол<br>
